@@ -12,6 +12,7 @@ import org.springframework.cloud.client.SpringCloudApplication;
 public class SpringCloudAPi {
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(SpringCloudAPi.class);
+        System.out.println();
         application.run(args);
     }
 }
